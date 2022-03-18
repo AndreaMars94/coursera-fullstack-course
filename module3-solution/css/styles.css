@@ -16,6 +16,7 @@ body {
 }
 #nav-list li {
   border: 1px solid #6f6f6fdb;
+  text-align: center;
 }
 
 .navbar-brand h1 {
