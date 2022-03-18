@@ -1,0 +1,70 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #6f6f6fdb;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav #nav-list {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list li {
+  border: 1px solid #6f6f6fdb;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Fredoka', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(189, 189, 189);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* Hamburger button */
+  border: 1px solid #000;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.page-header {
+  font-family: 'Fredoka', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px rgb(189, 189, 189);
+  line-height: .75;
+}
+
+.section {
+  background-color: #6f6f6fdb;
+  color: #000;
+  padding: 20px;
+  margin: 20px;
+}
+.section .title{
+  font-family: 'Fredoka', sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+/* END HOME PAGE */
+
+/********** Extra small devices **********/
+@media (max-width: 479px) {
+
+}
+
+
